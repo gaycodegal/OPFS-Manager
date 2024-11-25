@@ -20,3 +20,8 @@ To achieve these aims, an ideal solution would allow the following:
 - Clearing "storage data" clears OPFS files.
 
 Unfortunately these issues combine to make OPFS files rather transient like all website data. This is quite good for privacy, but bad if you really need to be sure user data persists for long periods of time in a way users have full control over. To be fair, the Chrome solution was also subject to similar concerns.
+
+## Other considerations
+
+Pull in https://github.com/jimmywarting/native-file-system-adapter
+so that writing files works on Safari.
