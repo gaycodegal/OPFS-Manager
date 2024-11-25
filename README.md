@@ -25,3 +25,14 @@ Unfortunately these issues combine to make OPFS files rather transient like all 
 
 Pull in https://github.com/jimmywarting/native-file-system-adapter
 so that writing files works on Safari.
+
+## Running
+
+
+```
+python -m http.server
+```
+
+Visit `http://localhost:8000`
+
+- OPFS is supposed to be secure contexts only but ["its fine"](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts#when_is_a_context_considered_secure)
